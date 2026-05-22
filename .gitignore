@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.Python
+.venv/
+venv/
+env/
+ENV/
+*.egg-info/
+
+# Environment — never commit real keys
+.env
+
+# Generated outputs
+output/
+
+# User's private character reference and input images
+character/*
+!character/.gitkeep
+input/*
+!input/.gitkeep
+
+# macOS
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
